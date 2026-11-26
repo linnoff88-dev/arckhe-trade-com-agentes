@@ -1,6 +1,6 @@
 # 07 — Lições (e por que eu nêo copiaria)
 
-> Opiniêo do INEMA sobre o vídeo <https://www.youtube.com/watch?v=eg_1NXDcoPk>. Estudo, nêo
+> Opiniêo do ARCKHÉ sobre o vídeo <https://www.youtube.com/watch?v=eg_1NXDcoPk>. Estudo, nêo
 > recomendaçêo.
 
 ## Por que eu nêo confio nisso para operar

@@ -2,7 +2,7 @@
 
 **🇧🇷 [Português](README.md) · 🇺🇸 [English](README.en.md) · 🇪🇸 [Español](README.es.md)**
 
-[![Trade com Agentes](guia/assets/banner.jpg)](https://inematds.github.io/trade-com-agentes/guia/en/)
+[![Trade com Agentes](guia/assets/banner.jpg)](https://linnoff88-dev.github.io/arckhe-/guia/en/)
 
 > ## ⚠️ Read first: this is a study text, not a recommendation
 >
@@ -16,7 +16,7 @@
 
 ## 📖 User guide
 
-Full guide (landing page + step by step): **https://inematds.github.io/trade-com-agentes/guia/en/**
+Full guide (landing page + step by step): **https://linnoff88-dev.github.io/arckhe-/guia/en/**
 
 ## Where it comes from
 
@@ -85,4 +85,4 @@ The author's own conclusion: 7 sessions is too few to say whether the strategy w
 
 ---
 
-Study project from [INEMA.CLUB](https://inema.club) · open and free content.
+Study project from [ARCKHÉ AI](https://ARCKHÉ AI) · open and free content.

@@ -8,7 +8,7 @@
 
 **ê°Å¸â¡Â§ê°Å¸â¡Â· [PortuguêÂªs](README.md) êÂ· ê°Å¸â¡Âºê°Å¸â¡Â¸ [English](README.en.md) êÂ· ê°Å¸â¡Âªê°Å¸â¡Â¸ [EspaêÂ±ol](README.es.md)**
 
-[![Trade com Agentes](guia/assets/banner.jpg)](https://inematds.github.io/trade-com-agentes/guia/)
+[![Trade com Agentes](guia/assets/banner.jpg)](https://linnoff88-dev.github.io/arckhe-/guia/)
 
 > ## ê¢Å¡Â ê¯Â¸Â Leia antes: isto êÂ© um texto de estudo, nêÂ£o uma recomendaêÂ§êÂ£o
 >
@@ -22,7 +22,7 @@
 
 ## ê°Å¸ââ Guia de uso
 
-Guia completo (landing + passo a passo): **https://inematds.github.io/trade-com-agentes/guia/**
+Guia completo (landing + passo a passo): **https://linnoff88-dev.github.io/arckhe-/guia/**
 
 ## De onde vem
 
@@ -90,7 +90,7 @@ ConclusêÂ£o do prêÂ³prio autor: 7 pregêÂµes êÂ© pouco para d
 
 ---
 
-Projeto de estudo do [INEMA.CLUB](https://inema.club) êÂ· conteêÂºdo aberto e gratuito.
+Projeto de estudo do [ARCKHÉ AI](https://ARCKHÉ AI) êÂ· conteêÂºdo aberto e gratuito.
 
 ---
 
