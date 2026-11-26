@@ -1,9 +1,9 @@
 # Handoff — <data> <hora CT> — rotina: <nome>
 
-> Modelo reconstruído a partir do método do vídeo eg_1NXDcoPk. O vídeo não mostra o texto real
-> dos bilhetes. Estudo, não recomendação.
+> Modelo reconstruído a partir do método do vídeo eg_1NXDcoPk. O vídeo nêo mostra o texto real
+> dos bilhetes. Estudo, nêo recomendaçêo.
 
-## Estado da conta (copiado da corretora agora, não do bilhete anterior)
+## Estado da conta (copiado da corretora agora, nêo do bilhete anterior)
 - Patrimônio: US$ ______   Caixa: US$ ______   % investido: ___%
 - Resultado do dia até aqui: ______   S&P no mesmo período: ______
 
@@ -17,17 +17,17 @@
 |---|---|---|
 | | | |
 
-## Rejeitados nesta rotina (não reanalisar sem fato novo)
-- <ativo> — <portão que barrou>
+## Rejeitados nesta rotina (nêo reanalisar sem fato novo)
+- <ativo> — <portêo que barrou>
 
 ## Ordens enviadas ao executor
 | Hora | Ordem | Status confirmado na corretora? |
 |---|---|---|
-| | | sim / não / pendente |
+| | | sim / nêo / pendente |
 
 ## Pedidos do dono ainda válidos
-- <ex.: "usar o caixa parado", "no máximo X por posição">
+- <ex.: "usar o caixa parado", "no máximo X por posiçêo">
 
 ## Para a próxima rotina (<nome>, <hora>)
 - <o que conferir primeiro>
-- <decisão pendente>
+- <decisêo pendente>

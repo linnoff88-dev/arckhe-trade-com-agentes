@@ -1,4 +1,4 @@
-﻿# Trade com Agentes â€” o mÃ©todo do desafio de 7 dias
+ï»¿# Trade com Agentes ê¢â¬â o mêÂ©todo do desafio de 7 dias
 
 <div align="center">
   <img src="capa/logo.svg" alt="Arckhé AI" height="48" />
@@ -6,91 +6,91 @@
 </div>
 
 
-**ðŸ‡§ðŸ‡· [PortuguÃªs](README.md) Â· ðŸ‡ºðŸ‡¸ [English](README.en.md) Â· ðŸ‡ªðŸ‡¸ [EspaÃ±ol](README.es.md)**
+**ê°Å¸â¡Â§ê°Å¸â¡Â· [PortuguêÂªs](README.md) êÂ· ê°Å¸â¡Âºê°Å¸â¡Â¸ [English](README.en.md) êÂ· ê°Å¸â¡Âªê°Å¸â¡Â¸ [EspaêÂ±ol](README.es.md)**
 
 [![Trade com Agentes](guia/assets/banner.jpg)](https://inematds.github.io/trade-com-agentes/guia/)
 
-> ## âš ï¸ Leia antes: isto Ã© um texto de estudo, nÃ£o uma recomendaÃ§Ã£o
+> ## ê¢Å¡Â ê¯Â¸Â Leia antes: isto êÂ© um texto de estudo, nêÂ£o uma recomendaêÂ§êÂ£o
 >
-> **Eu nÃ£o confio nisso para operar.** Trade Ã© risco alto, tem variÃ¡veis demais e **sempre tem
-> alguÃ©m do outro lado com informaÃ§Ã£o que a gente nÃ£o tem**. Este repositÃ³rio nÃ£o Ã© conselho
-> financeiro, nÃ£o Ã© estratÃ©gia validada e nÃ£o Ã© convite para colocar dinheiro em robÃ´.
+> **Eu nêÂ£o confio nisso para operar.** Trade êÂ© risco alto, tem variêÂ¡veis demais e **sempre tem
+> alguêÂ©m do outro lado com informaêÂ§êÂ£o que a gente nêÂ£o tem**. Este repositêÂ³rio nêÂ£o êÂ© conselho
+> financeiro, nêÂ£o êÂ© estratêÂ©gia validada e nêÂ£o êÂ© convite para colocar dinheiro em robêÂ´.
 >
-> O objetivo Ã© outro: **aprender com o que ele fez** â€” como montou os agentes, como passou o
-> contexto de um para o outro, onde travou e o que mudou no caminho. O prÃ³prio resultado do
+> O objetivo êÂ© outro: **aprender com o que ele fez** ê¢â¬â como montou os agentes, como passou o
+> contexto de um para o outro, onde travou e o que mudou no caminho. O prêÂ³prio resultado do
 > desafio mostra o ponto: em 7 dias, o sistema **perdeu para o S&P 500**.
 
-## ðŸ“– Guia de uso
+## ê°Å¸ââ Guia de uso
 
 Guia completo (landing + passo a passo): **https://inematds.github.io/trade-com-agentes/guia/**
 
 ## De onde vem
 
-VÃ­deo no YouTube: **"I Gave GPT 6 Astra $10,000 to Trade Stocks...And This Happened"** â€”
+VêÂ­deo no YouTube: **"I Gave GPT 6 Astra $10,000 to Trade Stocks...And This Happened"** ê¢â¬â
 <https://www.youtube.com/watch?v=eg_1NXDcoPk>
 
 O autor deu US$ 10.000 de dinheiro de verdade para um agente no **Codex com GPT-6 Astra
-(esforÃ§o alto)** operar aÃ§Ãµes por **7 pregÃµes**, com a meta de **bater o S&P 500**. Diferente de
-um teste anterior dele (com OpenClaw, 30 dias, sem mexer), aqui ele podia fazer **atÃ© duas
-mudanÃ§as por dia** â€” mas nÃ£o podia desligar o sistema, mesmo perdendo.
+(esforêÂ§o alto)** operar aêÂ§êÂµes por **7 pregêÂµes**, com a meta de **bater o S&P 500**. Diferente de
+um teste anterior dele (com OpenClaw, 30 dias, sem mexer), aqui ele podia fazer **atêÂ© duas
+mudanêÂ§as por dia** ê¢â¬â mas nêÂ£o podia desligar o sistema, mesmo perdendo.
 
-Tudo que estÃ¡ aqui Ã© **parÃ¡frase do vÃ­deo**. NÃºmeros sÃ£o **"conforme relatado no vÃ­deo"**; nada
-foi auditado. A transcriÃ§Ã£o Ã© automÃ¡tica, entÃ£o alguns nomes podem estar ouvidos errado (ver
+Tudo que estêÂ¡ aqui êÂ© **parêÂ¡frase do vêÂ­deo**. NêÂºmeros sêÂ£o **"conforme relatado no vêÂ­deo"**; nada
+foi auditado. A transcriêÂ§êÂ£o êÂ© automêÂ¡tica, entêÂ£o alguns nomes podem estar ouvidos errado (ver
 [metodo/06-diario-7-dias.md](metodo/06-diario-7-dias.md)).
 
-## O mÃ©todo em uma tela
+## O mêÂ©todo em uma tela
 
 ```
-07:45  prÃ©-mercado   â†’ lÃª notÃ­cias, confere conta, escolhe o que vigiar
-09:30  1h de pregÃ£o  â†’ procura a primeira entrada que passe nos filtros
-11:00  meio do dia   â†’ revisa posiÃ§Ãµes, Ãºltima chance de nova entrada
-13:00  tarde         â†’ administra o que estÃ¡ aberto
-14:15  fechamento    â†’ encerra as posiÃ§Ãµes restantes
-14:45  confirmaÃ§Ã£o   â†’ confere se zerou e registra o resultado do dia
-15:15  aviso final   â†’ notificaÃ§Ã£o
-(horÃ¡rio Central dos EUA â€” pregÃ£o das 8:30 Ã s 15:00 CT)
+07:45  prêÂ©-mercado   ê¢â â lêÂª notêÂ­cias, confere conta, escolhe o que vigiar
+09:30  1h de pregêÂ£o  ê¢â â procura a primeira entrada que passe nos filtros
+11:00  meio do dia   ê¢â â revisa posiêÂ§êÂµes, êÂºltima chance de nova entrada
+13:00  tarde         ê¢â â administra o que estêÂ¡ aberto
+14:15  fechamento    ê¢â â encerra as posiêÂ§êÂµes restantes
+14:45  confirmaêÂ§êÂ£o   ê¢â â confere se zerou e registra o resultado do dia
+15:15  aviso final   ê¢â â notificaêÂ§êÂ£o
+(horêÂ¡rio Central dos EUA ê¢â¬â pregêÂ£o das 8:30 êÂ s 15:00 CT)
 
-Cada rotina acorda â†’ LÃŠ o bilhete de handoff da anterior â†’ age â†’ ESCREVE o prÃ³ximo bilhete.
-Todas rodam na MESMA thread: parece um agente sÃ³ trabalhando o dia inteiro.
+Cada rotina acorda ê¢â â LêÅ  o bilhete de handoff da anterior ê¢â â age ê¢â â ESCREVE o prêÂ³ximo bilhete.
+Todas rodam na MESMA thread: parece um agente sêÂ³ trabalhando o dia inteiro.
 ```
 
-A partir do dia 2 entrou uma segunda peÃ§a: o modelo **se recusou a executar ordens sozinho**.
-SoluÃ§Ã£o dele: o Astra vira sÃ³ o **estrategista** e termina cada rotina mandando um **e-mail** com as
-recomendaÃ§Ãµes para um **bot executor** (que tem e-mail prÃ³prio + webhook). O bot acorda com o
+A partir do dia 2 entrou uma segunda peêÂ§a: o modelo **se recusou a executar ordens sozinho**.
+SoluêÂ§êÂ£o dele: o Astra vira sêÂ³ o **estrategista** e termina cada rotina mandando um **e-mail** com as
+recomendaêÂ§êÂµes para um **bot executor** (que tem e-mail prêÂ³prio + webhook). O bot acorda com o
 e-mail e manda a ordem para a corretora **Alpaca**.
 
-## ConteÃºdo
+## ConteêÂºdo
 
 | Arquivo | O que tem |
 |---|---|
-| [metodo/01-visao-geral.md](metodo/01-visao-geral.md) | Regras do desafio, peÃ§as e arquitetura |
+| [metodo/01-visao-geral.md](metodo/01-visao-geral.md) | Regras do desafio, peêÂ§as e arquitetura |
 | [metodo/02-rotinas.md](metodo/02-rotinas.md) | As 7 rotinas do dia, uma a uma |
 | [metodo/03-handoff.md](metodo/03-handoff.md) | A continuidade: bilhete de passagem entre agentes |
 | [metodo/04-estrategista-executor.md](metodo/04-estrategista-executor.md) | Por que separou quem pensa de quem executa |
-| [metodo/05-portoes-de-risco.md](metodo/05-portoes-de-risco.md) | Filtros, relaÃ§Ã£o risco/retorno e como foram afrouxados |
-| [metodo/06-diario-7-dias.md](metodo/06-diario-7-dias.md) | O que aconteceu em cada dia (nÃºmeros relatados) |
-| [metodo/07-licoes.md](metodo/07-licoes.md) | O que dÃ¡ para aprender â€” e por que eu nÃ£o copiaria |
-| [templates/rotinas.yaml](templates/rotinas.yaml) | Agenda das rotinas em formato de configuraÃ§Ã£o |
+| [metodo/05-portoes-de-risco.md](metodo/05-portoes-de-risco.md) | Filtros, relaêÂ§êÂ£o risco/retorno e como foram afrouxados |
+| [metodo/06-diario-7-dias.md](metodo/06-diario-7-dias.md) | O que aconteceu em cada dia (nêÂºmeros relatados) |
+| [metodo/07-licoes.md](metodo/07-licoes.md) | O que dêÂ¡ para aprender ê¢â¬â e por que eu nêÂ£o copiaria |
+| [templates/rotinas.yaml](templates/rotinas.yaml) | Agenda das rotinas em formato de configuraêÂ§êÂ£o |
 | [templates/handoff.md](templates/handoff.md) | Modelo do bilhete de handoff |
 | [templates/prompt-rotina.md](templates/prompt-rotina.md) | Modelo de prompt de cada rotina |
-| [templates/recomendacao.json](templates/recomendacao.json) | Formato do e-mail estrategista â†’ executor |
+| [templates/recomendacao.json](templates/recomendacao.json) | Formato do e-mail estrategista ê¢â â executor |
 
-**NÃ£o hÃ¡ cÃ³digo de operaÃ§Ã£o neste repositÃ³rio.** Os templates servem para entender a arquitetura
-(ou para testar em **conta simulada / paper trading**). Se for experimentar, comece por aÃ­.
+**NêÂ£o hêÂ¡ cêÂ³digo de operaêÂ§êÂ£o neste repositêÂ³rio.** Os templates servem para entender a arquitetura
+(ou para testar em **conta simulada / paper trading**). Se for experimentar, comece por aêÂ­.
 
 ## Resultado, conforme relatado
 
 | | Valor final |
 |---|---|
-| Sistema de agentes | ~US$ 9.900 (â‰ˆ âˆ’1,0%) |
-| Mesmos US$ 10.000 no S&P 500 | ~US$ 9.980 (â‰ˆ âˆ’0,2%) |
-| DiferenÃ§a | o S&P venceu por â‰ˆ 0,8 ponto |
+| Sistema de agentes | ~US$ 9.900 (ê¢â°Ë ê¢Ëâ1,0%) |
+| Mesmos US$ 10.000 no S&P 500 | ~US$ 9.980 (ê¢â°Ë ê¢Ëâ0,2%) |
+| DiferenêÂ§a | o S&P venceu por ê¢â°Ë 0,8 ponto |
 
-ConclusÃ£o do prÃ³prio autor: 7 pregÃµes Ã© pouco para dizer se a estratÃ©gia funciona.
+ConclusêÂ£o do prêÂ³prio autor: 7 pregêÂµes êÂ© pouco para dizer se a estratêÂ©gia funciona.
 
 ---
 
-Projeto de estudo do [INEMA.CLUB](https://inema.club) Â· conteÃºdo aberto e gratuito.
+Projeto de estudo do [INEMA.CLUB](https://inema.club) êÂ· conteêÂºdo aberto e gratuito.
 
 ---
 

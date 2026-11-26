@@ -1,16 +1,16 @@
-# Agenda das rotinas — reconstrução do método do vídeo eg_1NXDcoPk.
-# Formato ilustrativo (não é config de nenhuma ferramenta específica).
-# Estudo, não recomendação. Se for testar, use conta SIMULADA (paper).
+# Agenda das rotinas — reconstruçêo do método do vídeo eg_1NXDcoPk.
+# Formato ilustrativo (nêo é config de nenhuma ferramenta específica).
+# Estudo, nêo recomendaçêo. Se for testar, use conta SIMULADA (paper).
 
-fuso: America/Chicago        # Central Time; pregão 08:30–15:00
-dias: [seg, ter, qua, qui, sex]   # só dias de pregão; feriados desligam
+fuso: America/Chicago        # Central Time; pregêo 08:30–15:00
+dias: [seg, ter, qua, qui, sex]   # só dias de pregêo; feriados desligam
 thread: unica                # todas as rotinas escrevem na mesma conversa
 modelo: gpt-6-astra
 esforco: alto
 
 antes_de_cada_rotina:
   - ler: handoff.md          # último bilhete deixado pela rotina anterior
-  - ler: conta_na_corretora  # saldo e posições vêm da fonte oficial, não do bilhete
+  - ler: conta_na_corretora  # saldo e posições vêm da fonte oficial, nêo do bilhete
 depois_de_cada_rotina:
   - escrever: handoff.md
   - enviar: recomendacao.json -> executor   # a partir do dia 2 (ver metodo/04)
@@ -21,7 +21,7 @@ rotinas:
     tarefa: ler notícias, conferir a conta, montar a lista de vigilância do dia
   - hora: "09:30"
     nome: primeira-entrada
-    tarefa: procurar a primeira operação que passe em todos os portões
+    tarefa: procurar a primeira operaçêo que passe em todos os portões
   - hora: "11:00"
     nome: meio-do-dia
     tarefa: revisar posições; considerar a ÚLTIMA entrada nova do dia
@@ -36,7 +36,7 @@ rotinas:
     tarefa: confirmar conta zerada e registrar o resultado do dia
   - hora: "15:15"
     nome: aviso
-    tarefa: notificação final do dia
+    tarefa: notificaçêo final do dia
 
 portoes_originais:           # como começou
   risco_retorno_minimo: 2.0

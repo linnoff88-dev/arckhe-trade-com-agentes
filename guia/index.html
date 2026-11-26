@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Trade com Agentes — o método do desafio de 7 dias</title>
-<meta name="description" content="Estudo do método de um desafio de 7 dias com agentes de IA operando ações: rotinas agendadas, handoff, estrategista e executor. Texto de estudo, não recomendação.">
+<meta name="description" content="Estudo do método de um desafio de 7 dias com agentes de IA operando ações: rotinas agendadas, handoff, estrategista e executor. Texto de estudo, nêo recomendaçêo.">
 <link rel="alternate" hreflang="pt-BR" href="https://inematds.github.io/trade-com-agentes/guia/">
 <link rel="alternate" hreflang="en" href="https://inematds.github.io/trade-com-agentes/guia/en/">
 <link rel="alternate" hreflang="es" href="https://inematds.github.io/trade-com-agentes/guia/es/">
@@ -126,8 +126,8 @@
   <div class="wrap">
     <div>
       <span class="chip">Estudo de caso · agentes de IA</span>
-      <h1>O método do desafio de 7 dias, <span class="amb">para estudar</span> — não para copiar</h1>
-      <p class="lead">Como alguém montou agentes com rotinas, handoff e um executor para operar US$ 10.000 em ações. Eu não confio nisso para operar; aqui a gente aprende com o que ele fez.</p>
+      <h1>O método do desafio de 7 dias, <span class="amb">para estudar</span> — nêo para copiar</h1>
+      <p class="lead">Como alguém montou agentes com rotinas, handoff e um executor para operar US$ 10.000 em ações. Eu nêo confio nisso para operar; aqui a gente aprende com o que ele fez.</p>
       <div class="cta">
         <a class="btn" href="#aviso">Ler o aviso primeiro</a>
         <a class="btn ghost" href="https://github.com/inematds/trade-com-agentes" target="_blank" rel="noopener">Ver no GitHub</a>
@@ -139,10 +139,10 @@
 
 <section id="aviso"><div class="wrap">
   <span class="chip">⚠️ Aviso</span>
-  <h2>Isto é um texto de estudo, <span class="amb">não uma recomendação</span></h2>
+  <h2>Isto é um texto de estudo, <span class="amb">nêo uma recomendaçêo</span></h2>
   <div class="card alerta" style="margin-top:1.4em">
-    <h3>⚠️ Eu não confio nisso para operar</h3>
-    <p>Trade é risco alto, tem variáveis demais e <strong>sempre tem alguém do outro lado com informação que a gente não tem</strong>. Não é conselho financeiro, não é estratégia validada e não é convite para colocar dinheiro em robô. O próprio desafio terminou <strong>perdendo para o S&amp;P 500</strong>. O objetivo aqui é aprender como os agentes foram montados, onde travaram e o que mudou no caminho.</p>
+    <h3>⚠️ Eu nêo confio nisso para operar</h3>
+    <p>Trade é risco alto, tem variáveis demais e <strong>sempre tem alguém do outro lado com informaçêo que a gente nêo tem</strong>. Nêo é conselho financeiro, nêo é estratégia validada e nêo é convite para colocar dinheiro em robô. O próprio desafio terminou <strong>perdendo para o S&amp;P 500</strong>. O objetivo aqui é aprender como os agentes foram montados, onde travaram e o que mudou no caminho.</p>
   </div>
   <p class="sub" style="margin-top:1.4em">Fonte: vídeo no YouTube <a href="https://www.youtube.com/watch?v=eg_1NXDcoPk" target="_blank" rel="noopener">“I Gave GPT 6 Astra $10,000 to Trade Stocks...And This Happened”</a>. Tudo é paráfrase; números “conforme relatado no vídeo”, sem auditoria.</p>
 </div></section>
@@ -150,9 +150,9 @@
 <section id="oque"><div class="wrap">
   <span class="chip">O que é</span>
   <h2>O desafio em três pontos</h2>
-  <p class="sub">US$ 10.000 de dinheiro real, 7 pregões, meta de bater o S&amp;P 500. O autor podia fazer até duas mudanças por dia, mas não podia desligar o sistema.</p>
+  <p class="sub">US$ 10.000 de dinheiro real, 7 pregões, meta de bater o S&amp;P 500. O autor podia fazer até duas mudanças por dia, mas nêo podia desligar o sistema.</p>
   <div class="grid g3">
-    <div class="card"><h3>⏰ Rotinas agendadas</h3><p>Sete despertares por pregão, cada um com uma pergunta só: o que vigiar, se entra, se sai, se zerou.</p></div>
+    <div class="card"><h3>⏰ Rotinas agendadas</h3><p>Sete despertares por pregêo, cada um com uma pergunta só: o que vigiar, se entra, se sai, se zerou.</p></div>
     <div class="card"><h3>📝 Handoff entre agentes</h3><p>Cada rotina lê o bilhete da anterior e deixa outro para a próxima. Tudo na mesma thread: parece um agente só.</p></div>
     <div class="card"><h3>🤝 Estrategista + executor</h3><p>Quando o modelo recusou executar ordens, virou só estrategista e passou a mandar as recomendações por e-mail a um bot que opera na Alpaca.</p></div>
   </div>
@@ -160,8 +160,8 @@
 
 <section id="fluxo"><div class="wrap">
   <span class="chip">Como funciona</span>
-  <h2>Um pregão, do pré-mercado ao registro</h2>
-  <p class="sub">Horários em Central Time (pregão das 8:30 às 15:00 CT). Em cada despertar: lê o handoff → confere a conta → decide → escreve o próximo handoff.</p>
+  <h2>Um pregêo, do pré-mercado ao registro</h2>
+  <p class="sub">Horários em Central Time (pregêo das 8:30 às 15:00 CT). Em cada despertar: lê o handoff → confere a conta → decide → escreve o próximo handoff.</p>
   <div class="flow">
     <span>07:45 pré-mercado</span><span class="arr">→</span>
     <span>09:30 primeira entrada</span><span class="arr">→</span>
@@ -185,7 +185,7 @@
   <p class="sub">Nada disso vem com código neste repositório. Os templates explicam a arquitetura; para testar, só em conta simulada.</p>
   <div class="grid g3">
     <div class="card"><h3>🧠 Codex + GPT-6 Astra</h3><p>Esforço alto. Pesquisa, notícias, escolha de ativos e decisões. Na montagem, delegou a pesquisa a vários subagentes.</p></div>
-    <div class="card"><h3>📅 Rotinas na mesma thread</h3><p>Sete horários fixos, desligados em dia sem pregão. Uma conversa só guarda o histórico do dia inteiro.</p></div>
+    <div class="card"><h3>📅 Rotinas na mesma thread</h3><p>Sete horários fixos, desligados em dia sem pregêo. Uma conversa só guarda o histórico do dia inteiro.</p></div>
     <div class="card"><h3>📨 Bot executor + Alpaca</h3><p>Bot com e-mail próprio e webhook: acorda com a mensagem do estrategista e envia as ordens para a corretora.</p></div>
   </div>
 </div></section>
@@ -211,9 +211,9 @@
 
   <div class="step"><div class="b">3</div><div>
     <h3>Estude o handoff</h3>
-    <p>A peça que dá continuidade: o que o bilhete precisa ter e por que o saldo deve vir da corretora, não do bilhete.</p>
+    <p>A peça que dá continuidade: o que o bilhete precisa ter e por que o saldo deve vir da corretora, nêo do bilhete.</p>
 <pre><span class="k">cat</span> metodo/03-handoff.md
-<span class="k">cat</span> templates/handoff.md     <span class="c"># modelo reconstruído (o vídeo não mostra o original)</span></pre>
+<span class="k">cat</span> templates/handoff.md     <span class="c"># modelo reconstruído (o vídeo nêo mostra o original)</span></pre>
   </div></div>
 
   <div class="step"><div class="b">4</div><div>
@@ -232,7 +232,7 @@
 
   <div class="step"><div class="b">6</div><div>
     <h3>Leia o diário e as lições</h3>
-    <p>O que aconteceu em cada pregão e o que dá para aproveitar em outros agentes.</p>
+    <p>O que aconteceu em cada pregêo e o que dá para aproveitar em outros agentes.</p>
 <pre><span class="k">cat</span> metodo/06-diario-7-dias.md
 <span class="k">cat</span> metodo/07-licoes.md</pre>
   </div></div>
@@ -241,33 +241,33 @@
 <section id="diario"><div class="wrap">
   <span class="chip">Diário</span>
   <h2>Os 7 pregões, conforme relatado</h2>
-  <p class="sub">Valores aproximados ditos no vídeo, sem auditoria. A transcrição é automática: nomes como “FPS” e “GrokBot” não foram verificados.</p>
+  <p class="sub">Valores aproximados ditos no vídeo, sem auditoria. A transcriçêo é automática: nomes como “FPS” e “GrokBot” nêo foram verificados.</p>
   <div class="grid g4">
     <div class="card"><div class="num">1</div><h3>≈ US$ 9.991</h3><p>Comprou Tesla e o stop disparou logo. Autor pede plano mais ativo e risco/retorno 1,5:1.</p></div>
-    <div class="card"><div class="num">2</div><h3>≈ parado</h3><p>Variação de ≈ US$ 0,21. O modelo recusa executar; entra o bot executor via e-mail → Alpaca.</p></div>
+    <div class="card"><div class="num">2</div><h3>≈ parado</h3><p>Variaçêo de ≈ US$ 0,21. O modelo recusa executar; entra o bot executor via e-mail → Alpaca.</p></div>
     <div class="card"><div class="num">3</div><h3>≈ US$ 10.018</h3><p>Primeiras posições (HPE, Exxon, Apple). Ainda ≈ 60% em caixa.</p></div>
     <div class="card"><div class="num">4</div><h3>≈ US$ 9.800</h3><p>≈ 80% investido. Dia de ≈ −2,26% contra ≈ −0,5% do S&amp;P.</p></div>
     <div class="card"><div class="num">5</div><h3>≈ US$ 9.833</h3><p>Quase 100% investido. ≈ +0,37% contra ≈ −0,45% do S&amp;P.</p></div>
     <div class="card"><div class="num">6</div><h3>≈ US$ 9.759</h3><p>Fed sobe juros; mercado cai. O agente vende parte e recompra. ≈ −0,87%.</p></div>
-    <div class="card"><div class="num">7</div><h3>≈ US$ 9.900</h3><p>Melhor dia: ≈ +1,87% contra ≈ +1,14% do S&amp;P. Não bastou.</p></div>
+    <div class="card"><div class="num">7</div><h3>≈ US$ 9.900</h3><p>Melhor dia: ≈ +1,87% contra ≈ +1,14% do S&amp;P. Nêo bastou.</p></div>
     <div class="card alerta"><div class="num">=</div><h3>S&amp;P venceu</h3><p>Sistema ≈ −1,0%; mesmo dinheiro no S&amp;P ≈ −0,2%. Diferença de ≈ 0,8 ponto.</p></div>
   </div>
 </div></section>
 
 <section id="licoes"><div class="wrap">
   <span class="chip">Lições</span>
-  <h2>O que aprender — e por que eu não copiaria</h2>
+  <h2>O que aprender — e por que eu nêo copiaria</h2>
   <p class="sub">A arquitetura tem ideias boas para qualquer agente. A parte de operar dinheiro é outra conversa.</p>
   <div class="phase"><div class="tag">Aproveita</div><div class="d"><strong>Rotinas curtas + handoff + uma thread</strong><span>Cada despertar com uma pergunta, memória escrita entre execuções e histórico num lugar só. Serve para qualquer agente agendado.</span></div></div>
   <div class="phase"><div class="tag">Aproveita</div><div class="d"><strong>Estrategista separado do executor</strong><span>Com contrato de mensagem fixo e um executor que recusa ordem sem stop, fora do limite ou vencida.</span></div></div>
-  <div class="phase"><div class="tag">Cuidado</div><div class="d"><strong>O botão girado foi o de risco</strong><span>Portões apertados: nada acontece. Portões frouxos: muita coisa acontece, e pior que o índice. Pressão de prazo e plateia empurrou o humano, e o agente obedeceu.</span></div></div>
+  <div class="phase"><div class="tag">Cuidado</div><div class="d"><strong>O botêo girado foi o de risco</strong><span>Portões apertados: nada acontece. Portões frouxos: muita coisa acontece, e pior que o índice. Pressêo de prazo e plateia empurrou o humano, e o agente obedeceu.</span></div></div>
   <div class="phase"><div class="tag">Cuidado</div><div class="d"><strong>A recusa do modelo era um freio</strong><span>Contornar com outro agente tirou a última pergunta “tem certeza?”. E regras mudando todo dia impedem saber o que funcionou.</span></div></div>
-  <div class="phase"><div class="tag">Se testar</div><div class="d"><strong>Paper trading, regras fixas, meses</strong><span>Conta simulada, regras definidas antes, comparação com o índice no mesmo período e limites no executor que o estrategista não desliga.</span></div></div>
+  <div class="phase"><div class="tag">Se testar</div><div class="d"><strong>Paper trading, regras fixas, meses</strong><span>Conta simulada, regras definidas antes, comparaçêo com o índice no mesmo período e limites no executor que o estrategista nêo desliga.</span></div></div>
 </div></section>
 
 <footer>
   <div class="wrap">
-    <div class="pill">Estudo de caso</div><div class="pill">Agentes agendados</div><div class="pill">Não é recomendação</div>
+    <div class="pill">Estudo de caso</div><div class="pill">Agentes agendados</div><div class="pill">Nêo é recomendaçêo</div>
     <p style="margin-top:18px">Trade com Agentes · conteúdo aberto e gratuito ·
       <a href="https://github.com/inematds/trade-com-agentes">inematds/trade-com-agentes</a> ·
       <a href="https://inema.club">INEMA.CLUB</a></p>
